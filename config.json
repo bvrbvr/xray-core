@@ -1,0 +1,43 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "port": 5443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "457457474574",
+            "flow": ""
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "www.wikipedia.org:443",
+          "xver": 0,
+          "serverNames": [
+            "www.wikipedia.org",
+            "www.bing.com",
+            "www.amazon.com",
+            "www.gooogle.com",
+            "www.nfl.com"
+          ],
+          "privateKey": "474574574574745",
+          "shortIds": [""]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom"
+    }
+  ]
+}
